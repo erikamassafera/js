@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+<script>
+
+	var altura = 1.58;
+ 	var peso = 56;
+
+ 	var aluraAmigo = 1.72;
+ 	var pesoAmigo = 70;
+ 	
+ 	var calculaIMC = function(altura,peso){ 
+		return Math.round(peso/(altura*altura));
+	}
+
+ 	document.write("O meu IMC é: " + calculaIMC(altura, peso)+"<br><br>");
+	document.write("O IMC do meu amigo é: " + calculaIMC(aluraAmigo,pesoAmigo));
+
+
+	var idade = prompt ("Qual é sua idade?");
+
+</script>
