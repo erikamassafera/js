@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<script>
+	
+	var calculaIMC = function(altura,peso){ 
+	return Math.round(peso/(altura*altura));
+	}
+
+	var altura = window.prompt("Digite a altura: ");
+ 	var peso = window.prompt("Digite o peso: ");
+
+	window.alert("O IMC é: " + calculaIMC(altura,peso));
+
+
+</script>
